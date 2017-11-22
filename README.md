@@ -1,4 +1,4 @@
-Open index.html with Chrome
+Open index.html with Chrome, view fullscreen.
 
 
 Assignment:
