@@ -1,3 +1,8 @@
+Open index.html with Chrome
+
+
+Assignment:
+
 ### Superhero Cheesecake
 
 ##### Frontend Recruitment Challenge -- Tommy Hilfiger - Denim Landing
@@ -61,7 +66,3 @@ This includes:
 
 
 Have fun being tested!
-
-
-
-> Vincent - Superhero Cheesecake <vincent@shcc.nl>
