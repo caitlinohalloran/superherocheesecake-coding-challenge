@@ -1,0 +1,40 @@
+.video-detail-inner circle {
+    r: 0%;
+    transition: all 0.2s;
+}
+.video-detail-outer circle {
+    r: 49%;
+    transition: all 0.2s;
+}
+
+.video-btn {
+    height: 40px;
+    width: 40px;
+    transition: all 0.5s;
+}
+.video-btn-active {
+    height: 0px;
+    width: 0px;
+    transform: translate(20px,20px);
+    transition: all 0.5s;
+}
+.video-detail-inner-active circle {
+    r: 35%;
+    transition: all 0.5s;
+}
+.video-detail-outer-active circle {
+    r: 0%;
+    transition: all 0.5s;
+}
+.hidden {
+    height: 0px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    overflow: hidden;
+    transition: all 0.2s;
+}
+.reveal {
+    height: 30px;
+    padding-top: 0px;
+    transition: all 0.2s;
+}

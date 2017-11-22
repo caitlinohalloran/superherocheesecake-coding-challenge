@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "heroic black";
+    src: url("./assets/fonts/heroiccondensed-black-webfont.woff") format("woff");
+ }
+ @font-face {
+    font-family: "heroic bold";
+    src: url("./assets/fonts/heroiccondensed-bold-webfont.woff") format("woff");
+ }
+ @font-face {
+    font-family: "heroic heavy";
+    src: url("./assets/fonts/heroiccondensed-heavy-webfont.woff") format("woff");
+ }
+ @font-face {
+    font-family: "heroic medium";
+    src: url("./assets/fonts/heroiccondensed-medium-webfont.woff") format("woff");
+ }
+
+ .black {
+    font-family: "heroic bold";
+    font-size: 18em;
+    color: #FF1A3E;
+    line-height:0.75;
+}
+.heavy {font-family: "heroic heavy";}
+.bold {font-family: "heroic bold";}
+.medium {font-family: "heroic medium";}
+.gill {font-family: "gill sans";}
+.upper {text-transform: uppercase;}
+.big-spacing {letter-spacing: 8px;}
+.medium-spacing {letter-spacing: 5px;}
+.small-spacing {letter-spacing: 3px;}
+.red {color: #FF1A3E;}
+.blue {color: #012C5C;}
+.white {color: #FFFFFF;}
+.size16 {font-size: 10pt;}
+.size20 {font-size: 12pt;}
+.size25 {font-size: 14pt;}
+.size30 {font-size: 18pt;}
+.size48 {font-size: 28pt;}
+.right {text-align: right;}
+.center {text-align: center;}

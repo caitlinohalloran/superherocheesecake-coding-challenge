@@ -1,0 +1,102 @@
+@keyframes fade {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@keyframes rise {
+    0% {line-height: 1;}
+    100% {line-height: 0.75}
+}
+@keyframes heart-rise {
+    0% {top:320px;}
+    100% {top:246px;}
+}
+@keyframes flash {
+    0%,60% {fill:#FF1A3E}
+    40% {fill:#012C5C}
+}
+@keyframes heart-translate {
+    0%,60% {left:345px;}
+    40% {left:355px;}
+}
+@keyframes shrink-fast {
+    100% {
+        width: 280px;
+        height:255px;
+    }
+}
+@keyframes shrink-slow {
+    100% {
+        width: 220px;
+        height:800px;
+    }
+}
+@keyframes reveal {
+    0% {height:0px;}
+    100% {height: 30px;
+    padding-top: 0px;}
+}
+
+#text1 p {
+    animation-name: reveal;
+    animation-duration: 0.5s;
+    animation-delay: 1.5s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+.white-block {
+    animation-duration: 1s;
+    animation-delay: 0.3s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+#white-block-1 {animation-name: shrink-fast;}
+
+#white-block-2 {animation-name: shrink-slow;}
+
+.svg {
+    animation-name: flash, flash;
+    animation-duration: 0.25s, 0.2s;
+    animation-delay: 1.7s, 3s;
+    animation-iteration-count: 1, 2;
+    animation-timing-function: ease;
+}
+
+#animated-heart {
+    animation-name: heart-rise, fade, heart-translate, heart-translate;
+    animation-duration: 1s, 0.5s, 0.25s, 0.2s;
+    animation-delay: 1s, 1s, 1.7s, 3s;
+    animation-iteration-count: 1, 1, 1, 2;
+    animation-timing-function: ease-out, ease-out, ease, ease;
+    animation-fill-mode: forwards, forwards, none, none;
+}
+
+#info p, #product-button {
+    animation-name: fade;
+    animation-duration: 1s;
+    animation-delay: 0.2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+#header-fig {
+    animation-name: fade;
+    animation-duration: 0.8s;
+    animation-delay: 0.3s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+.letter {
+    animation-name: fade, rise;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+#animate1 {animation-delay: 1s;}
+#animate2 {animation-delay: 1.05s;}
+#animate3 {animation-delay: 1.1s;}
+#animate4 {animation-delay: 1.15s;}
+#animate5 {animation-delay: 1.2s;}
+#animate6 {animation-delay: 1.25s;}
+#animate7 {animation-delay: 1.3s;}
+#animate8 {animation-delay: 1.35s;}

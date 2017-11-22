@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tommy Hilfiger</title>
+	<meta charset="UTF-8">
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="font.css">
+	<link rel="stylesheet" type="text/css" href="transition.css">
+	<link rel="stylesheet" type="text/css" href="animation.css">
+</head>
+
+<body>
+
+<nav>
+	<img id="logo" src="./assets/images/logo.png" />
+	<ul class="medium blue size20 upper small-spacing">
+		<li><p>Women</p></li>
+		<li><p>Men</p></li>
+		<li><p>Kids</p></li>
+		<li><p>Labels</p></li>
+		<li><p>Sale</p></li>
+	</ul>
+</nav>
+
+<img id="header-fig" src="./assets/images/tommy-denim__header-men.jpg"/>
+
+<svg id="animated-heart" height=210px width=220 viewBox="0 0 35.4 32">
+	<path class="svg" d="M35.4,10C34.3,2.1,28.1,0,24.9,0h0c-3.3-0.3-5.7,1.7-7.2,3.2c-1.5-1.4-3.9-3.4-7.2-3.2h0C7.3,0,1.1,2.1,0,10
+	C0,10.5-0.5,14.9,3,20.4C6.6,26,14.6,30.7,17,31.7l0.8,0.3l0.8-0.3c2.4-1,10.4-5.7,14-11.3C36,14.9,35.5,10.5,35.4,10L35.4,10z
+	M28.6,18.3c-2.5,3.9-8.2,7.6-10.9,9c-2.7-1.4-8.4-5.1-10.9-9C4.1,14.2,4.5,11,4.5,11c0.8-6.1,6.5-6.3,6.5-6.3
+	c3-0.3,4.9,2.1,5.2,2.4l0.6,0.7L17.7,9l0.8-1.1l0.6-0.8c0.2-0.2,1.9-2.7,5.1-2.5c0,0,5.9,0,6.5,6.3C30.8,11.1,31.2,14.2,28.6,18.3
+	L28.6,18.3z"/>
+</svg>
+
+<div id="white-block-1" class="white-block"></div>
+<div id="white-block-2" class="white-block"></div>
+
+<section>
+	<div id="text1">
+		<p class="heavy red size30 medium-spacing">24/7 LIVE.</p>
+	</div>
+	<div class="row row-1">
+		<div class="col-2 black letter" id="animate1"><p>L</p></div>
+		<div class="col-3" id="heart"><img src="./assets/icons/heart.svg" height=210px width=auto /></div>
+		<div class="col-2 black right letter" id="animate2"><p>V</p></div>
+		<div class="col-2 black right letter" id="animate3"><p>E</p></div>
+		<div class="col-2 black center letter" id="animate4"><p>.</p></div>
+		<div class="col-1"></div>
+	</div>
+
+	<div class="row row-2">
+		<div class="col-3" id="info">
+			<p class="heavy blue size48 big-spacing">SPRING</p>
+			<p class="heavy red size48 big-spacing">2017</p>
+			<p class="bold blue size25 upper small-spacing">with anwar hadid & sophia richie<p>
+			<p class="gill blue size16">Engineered for perfect form and exceptional fit – whatever you do in them.</p>
+			<button class="bold white size20 upper" id="product-button">View all products</button>
+		</div>
+		<div class="col-2"></div>
+		<div class="col-1 black right letter" id="animate5"><p>L</p></div>
+		<div class="col-1 black letter" id="animate6"><p>.</p></div>
+		<div class="col-2 black center letter" id="animate7"><p>A</p></div>
+		<div class="col-2 black letter" id="animate8"><p>.</p></div>
+		<div class="col-1"></div>
+	</div>
+
+	<figure>
+		<video id="video">
+			<source id="source" src="./resources/test-video.mp4" type="video/mp4">
+		</video>
+		<div id="video-controls" >
+		<!-- data-state="hidden"> -->
+			<button id="play-button" class="video-btn" type="button" data-state="play"></button>
+			<svg id="outer" class="video-detail-outer" width="100" height="100">
+				<circle cx="50%" cy="50%" stroke="#FF1A3E" stroke-width="2%" fill="none" />
+			</svg>
+			<svg id="inner" class="video-detail-inner" width="100" height="100">
+				<circle cx="50%" cy="50%" stroke="none" fill="#FF1A3E" opacity="0.5"/>
+			</svg>
+			<canvas id="progress" width="100" height="100"></canvas>
+			<div id="resume" class="heavy size20 white small-spacing upper"><p id="resume-text" class="hidden" height="0">Resume</p></div>
+		</div>
+	</figure>
+</section>
+
+	
+</body>
+<script src="script.js"></script>
+</html>
